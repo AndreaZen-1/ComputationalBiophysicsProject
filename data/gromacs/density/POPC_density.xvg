@@ -1,0 +1,74 @@
+# This file was created Thu Dec 15 11:10:52 2022
+# Created by:
+#                      :-) GROMACS - gmx density, 2018 (-:
+# 
+# Executable:   /apps/gromacs-2018/bin/gmx_mpi
+# Data prefix:  /apps/gromacs-2018
+# Working dir:  /home/andrea.zen-1/project
+# Command line:
+#   gmx_mpi density -f trajectory_noPBC_alignedCA.xtc -s step7_final.tpr -o density/POPC_density.xvg
+# gmx density is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "POPC"
+     0.20343          89.6909
+    0.610289          218.742
+     1.01715          369.026
+     1.42401          477.956
+     1.83087          536.998
+     2.23773           570.39
+     2.64458          590.663
+     3.05144          602.066
+      3.4583          620.918
+     3.86516          651.086
+     4.27202          682.881
+     4.67888          697.258
+     5.08574           674.57
+      5.4926          596.813
+     5.89946          478.418
+     6.30632          358.764
+     6.71318          264.676
+     7.12003          197.021
+     7.52689          143.612
+     7.93375          99.7054
+     8.34061          65.6313
+     8.74747          40.5528
+     9.15433          22.3223
+     9.56119          10.5424
+     9.96805          3.98296
+     10.3749          1.14685
+     10.7818         0.223902
+     11.1886        0.0286748
+     11.5955      0.000796734
+     12.0023                0
+     12.4092                0
+     12.8161                0
+     13.2229                0
+     13.6298                0
+     14.0366                0
+     14.4435                0
+     14.8504                0
+     15.2572                0
+     15.6641                0
+     16.0709                0
+     16.4778                0
+     16.8847                0
+     17.2915                0
+     17.6984                0
+     18.1052                0
+     18.5121      8.69106e-06
+     18.9189        0.0176948
+     19.3258         0.429168
+     19.7327          4.53029
+     20.1395          25.4734
